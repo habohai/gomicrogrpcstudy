@@ -2,7 +2,7 @@ package main
 
 import (
 	"gomicrogrpcstudy/serviceimpl"
-	"gomicrogrpcstudy/services/gomicrogrpcstudy/services"
+	"gomicrogrpcstudy/services"
 
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/registry"

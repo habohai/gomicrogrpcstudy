@@ -1,6 +1,6 @@
 syntax = "proto3";
 package services;
-option go_package = "gomicrogrpcstudy/services";
+// option go_package = "gomicrogrpcstudy/services";
 
 // ProdModel 商品模型
 message  ProdModel {
