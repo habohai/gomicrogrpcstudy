@@ -6,4 +6,5 @@ cd services/protos
 protoc --micro_out=../ --go_out=../ models.proto
 protoc --micro_out=../ --go_out=../ prodservice.proto
 protoc-go-inject-tag -input=../models.pb.go
+protoc-go-inject-tag -input=../prodservice.pb.go
 cd ../../
